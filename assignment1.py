@@ -7,6 +7,12 @@ def subtraction(a,b):
 def multiplication(a,b):
 	return a*b
 
+def division(a,b):
+	if(b==0):
+		print("Zero Division Error")
+	else:
+		return a/b
+
 if __name__ == "__main__":
 	a = 3
 	b = 5
